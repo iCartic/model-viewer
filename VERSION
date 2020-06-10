@@ -1,0 +1,27 @@
+commit a4266c16496d741a90cdc215b330ed6df7db5f3c
+Author: sun765 <44676379+sun765@users.noreply.github.com>
+Date:   Wed Jun 10 17:31:44 2020 -0400
+
+    Metric rms (#1251)
+    
+    * before merging path tracing branch
+    
+    * refactor render-screenshots
+    
+    * change average distance ratio to rms distance, but doesn't look correct...
+    
+    * change rms distance to rms distance ratio
+    
+    * format document
+    
+    * changed the order of variables
+    
+    * calculate rms withoug using threshole
+    
+    * remove ,
+    
+    * change to modified decibel, but doesn't look good
+    
+    * report rms in db (modified)
+    
+    * removed multiplier
